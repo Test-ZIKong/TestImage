@@ -1,12 +1,16 @@
+#source 'https://github.com/Test-ZIKong/TestSpecs.git'
+#source 'https://github.com/CocoaPods/Specs.git'
+
 use_frameworks!
 platform :ios, '9.0'
 
 target 'TestImage_Example' do
+#    pod 'TestImage'
   pod 'TestImage', :path => '../'
 
   target 'TestImage_Tests' do
     inherit! :search_paths
 
-    
+
   end
 end

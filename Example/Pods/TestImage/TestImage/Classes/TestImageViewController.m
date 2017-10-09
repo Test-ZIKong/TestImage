@@ -16,25 +16,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.view.backgroundColor = [UIColor whiteColor];
-    
-    NSInteger scale = [[UIScreen mainScreen] scale];
-    NSBundle *currentBundle = [NSBundle bundleForClass:[self class]];
-    NSString *name = [NSString stringWithFormat:@"%@@%zdx",@"greenPin",scale];
-    NSString *dir = [NSString stringWithFormat:@"%@.bundle",@"TestImage"];
-    NSString *path  = [currentBundle pathForResource:name ofType:@"png" inDirectory:dir];
-    UIImage *image = [UIImage imageWithContentsOfFile:path];
     
     UIImageView *imageView = [[UIImageView alloc] init];
-    imageView.backgroundColor = [UIColor lightGrayColor];
-    imageView.image = image;
+    imageView.image = [UIImage imageNamed:@"greenPin"];
     imageView.frame = CGRectMake(100, 200, 88, 130);
     [self.view addSubview:imageView];
     
 }
 
-
-    
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
