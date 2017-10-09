@@ -1,0 +1,16 @@
+PODS:
+  - TestImage (0.1.0)
+
+DEPENDENCIES:
+  - TestImage (from `../`)
+
+EXTERNAL SOURCES:
+  TestImage:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TestImage: 346427ef1da5c9a8cc79732d460f36fcd720239f
+
+PODFILE CHECKSUM: 10c43b63361b16b9c762eae31a3086d49ef19a20
+
+COCOAPODS: 1.1.1

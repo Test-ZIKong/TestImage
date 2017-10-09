@@ -1,0 +1,27 @@
+{
+  "name": "TestImage",
+  "version": "0.1.0",
+  "summary": "A short description of TestImage.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Test-ZIKong/TestImage",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "811528603@qq.com": "811528603@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/Test-ZIKong/TestImage.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "TestImage/Classes/**/*",
+  "resource_bundles": {
+    "TestImage": [
+      "TestImage/Assets/*.png"
+    ]
+  }
+}
